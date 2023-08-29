@@ -1,0 +1,160 @@
+.hero {
+  padding-top: 56px;
+  background-color: #1c1c24;
+}
+.hero__main {
+  display: flex;
+}
+
+.hero__main--block-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 34px;
+  height: 345px;
+  margin-top: 34px;
+  .hero__main--media {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+  }
+}
+.hero__main--img-media-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border: 1px solid rgb(210, 239, 255, 0.3);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.4s;
+  svg {
+    color: #d2efff;
+    transition: color 0.4s;
+  }
+  &:hover {
+    background-color: #ff974a;
+    svg {
+      color: #1c1c24;
+    }
+  }
+}
+.hero__main--title-rotate {
+  display: inline-block;
+  width: 147px;
+  height: 16px;
+  white-space: nowrap;
+  rotate: -90deg;
+  color: #d2efff;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 6px;
+}
+.hero__main--block-title {
+  width: 522px;
+  margin-left: 96px;
+}
+.hero__main--title {
+  margin-bottom: 12px;
+  color: #fff;
+  font-size: 6.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 74px; /* 115.625% */
+}
+.hero__main--desc {
+  width: 368px;
+  margin-bottom: 50px;
+  color: #b0b0b0;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.hero__main--btn {
+  width: 212px;
+  height: 58px;
+  span {
+    color: #fff;
+    text-align: center;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+  }
+}
+.hero__main--process {
+  width: 454px;
+  margin-left: 56px;
+}
+
+.hero__main--process-list-extra {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 63px;
+  margin-left: 20px;
+  row-gap: 28px;
+  .hero__main--process-back {
+    margin-left: 56px;
+  }
+}
+.hero__main--process-extra-arrow- {
+  &red,
+  &green {
+    position: absolute;
+    z-index: 2;
+  }
+  &red {
+    top: -75.5px;
+    left: 106px;
+  }
+  &green {
+    bottom: 2.5px;
+    right: 128px;
+  }
+}
+.hero__main--process-block-extra {
+  position: absolute;
+  z-index: 3;
+  top: -105px;
+  right: 0;
+  width: 248px;
+  height: 250px;
+  border-radius: 8px;
+  background: #1e75ff;
+  .hero__main--process-block-extra-cover {
+    padding: 20px;
+  }
+}
+.hero__main--process-input {
+  position: relative;
+  width: 100%;
+  background-color: transparent;
+  padding-bottom: 13px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.1);
+&:focus {
+    outline: none;
+    border: none;
+}
+  &::placeholder {
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}
+.hero__main--icon {
+  position: absolute;
+  top: 23px;
+  right: 20px;
+}
