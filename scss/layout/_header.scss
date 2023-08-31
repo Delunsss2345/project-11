@@ -132,6 +132,7 @@
 }
 .main__header--products-items {
   a {
+    transition: color 0.3s;
     color: #b0b0b0;
     font-size: 1.6rem;
     font-style: normal;
@@ -152,12 +153,24 @@
   display: flex;
   flex-direction: column;
   row-gap: 10px;
-  li a {
+  li > a {
     color: #b0b0b0;
     font-size: 1.6rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    transition: color 0.3s;
+  }
+  
+  li:hover { 
+    a {
+      color: #fff;
+    }
+  }
+}
+.main__header--products-items:hover {
+  a {
+    color: #fff;
   }
 }
 .main__header--products-item-bottom:last-of-type {
