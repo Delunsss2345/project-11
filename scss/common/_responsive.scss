@@ -1,3 +1,4 @@
+@use "../common/common";
 @media screen and (min-width: 978px) {
   .main__header--navigation-check,
   .main__header--navigation-mobile,
@@ -13,6 +14,13 @@
   }
 }
 @media screen and (max-width: 767.98px) {
+  .main__header--block-logo .main__header--logo {
+    color: #fff;
+    font-size: 1.7rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
   .main__header {
     justify-content: flex-start;
     .main__header--list {
@@ -38,7 +46,7 @@
     left: 0;
     right: 0;
     padding-bottom: 184px;
-    background-color: rgb(28, 28, 36 , 0.9);
+    background-color: rgb(28, 28, 36, 0.9);
     transform: translateX(-100%);
     transition: transform 0.5s, opacity 0.5s, visibility 0.5s;
     opacity: 0;
@@ -81,5 +89,175 @@
   }
   .main__header--navigation-mobile {
     cursor: pointer;
+  }
+  // Hero
+  .hero__main {
+    flex-direction: column;
+  }
+  .hero__main--block-media {
+    display: none;
+  }
+  .hero__main--block-title {
+    width: auto;
+    margin-left: 0;
+    padding-bottom: 40px;
+    .hero__main--title {
+      width: 335px;
+      margin-bottom: 20px;
+      color: #fff;
+      font-size: 3.5rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 40px; /* 114.286% */
+    }
+    .hero__main--desc {
+      width: 236.169px;
+      color: #b0b0b0;
+      font-size: 1.2rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 18px; /* 150% */
+    }
+  }
+  .hero__main--process {
+    width: 335px;
+    padding-top: 40px;
+  }
+  .hero__main--process {
+    margin-left: 0;
+  }
+  .hero__main--process-block-extra {
+    width: 183px;
+    height: auto;
+    top: -120px;
+    right: 23px;
+    .hero__main--process-block-extra-cover {
+      padding: 14.76px;
+    }
+  }
+  .hero__main--process-input-group .hero__main--process-input {
+    &::placeholder {
+      color: #fff;
+      font-family: var(--Inter);
+      font-size: 8.855px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+  }
+  .hero__main--icon {
+    top: 20px;
+  }
+  .hero__main--process-extra-arrow- {
+    &red,
+    &green {
+      svg {
+        width: 40.21px;
+        height: 25.46px;
+      }
+    }
+    &red {
+      top: -55.5px;
+      left: 80px;
+    }
+    &green {
+      bottom: 7.5px;
+      right: 115px;
+    }
+  }
+  .hero__main--process-block-circle-extra {
+    bottom: 7px;
+    right: 4px;
+    svg {
+      width: 63.46px;
+      height: 63.46px;
+    }
+  }
+  .hero__main--info-user {
+    .hero__main--name-user {
+      color: #fff;
+      font-family: var(--Inter);
+      font-size: 8.855px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+    .hero__main--work-user {
+      color: #fff;
+      font-family: var(--Inter);
+      font-size: 7.379px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+  .hero__main-span-user {
+    color: #fff;
+    text-align: right;
+    font-family: var(--Inter);
+    font-size: 8.855px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .hero__main--list-user {
+    row-gap: 10.33px;
+    .hero__main--item-user {
+      padding: 5.9px 13.37px 6.5px 7.38px;
+    }
+  }
+  .hero__main--process-list-extra {
+    margin-left: 0;
+    row-gap: 20px;
+    .hero__main--process-back {
+      margin-left: 29.32px;
+    }
+  }
+  .hero__main--process-img-block svg {
+    width: 165.29px;
+    height: 33.94px;
+  }
+  .hero__main--input-group-main {
+  
+    margin-top: 30px;
+    .hero__main--input-main {
+      max-width: 306.96px;
+      height: auto;
+      padding: 18.45px 0px 17.25px 19.19px;
+      &::placeholder {
+        color: #b0b0b0;
+        font-family: var(--Inter);
+        font-size: 10.33px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+    }
+  }
+  .hero__main--label-file {
+    top: 20px;
+    left: 205px;
+    img {
+      width: 11.806px;
+      height: 11.806px;
+    }
+  }
+  .hero__main--label-img {
+    top: 20px;
+    left: 235px;
+    img {
+      width: 11.806px;
+      height: 11.806px;
+    }
+  }
+  .hero__main--label-main {
+    top: 15px;
+    left: 260px;
+    width: 26.564px;
+    height: 26.564px;
+    img {
+      width: 8.855px;
+      height: 8.855px;
+    }
   }
 }
