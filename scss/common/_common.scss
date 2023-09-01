@@ -2,6 +2,15 @@
   font-family: "DM Sans", sans-serif;
   box-sizing: border-box;
 }
+[data-aos] {
+  pointer-events: none;
+}
+.aos-animate {
+  pointer-events: auto;
+}
+.aos-init[data-aos][data-aos].aos-animate {
+  transform: unset;
+}
 html {
   font-size: 10px;
   font-family: "DM Sans", sans-serif;
