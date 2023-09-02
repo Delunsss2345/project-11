@@ -595,4 +595,35 @@
     font-weight: 500;
     line-height: normal;
   }
+  /*Popups*/
+  .popups__main {
+    margin-left: 0;
+  }
+  .popups__main--extra-img {
+    display: none;
+  }
+  .popups__main--list {
+    justify-content: center;
+    row-gap: 50px;
+    grid-template-columns: 200px;
+    grid-template-rows: repeat(4, 179px);
+  }
+  .popups__main--intro {
+    margin-bottom: 16px;
+    color: #79d861;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+  }
+  .popups__main--title {
+    width: 335px;
+    color: #fff;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px; /* 126.667% */
+  }
 }
