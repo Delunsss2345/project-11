@@ -664,4 +664,126 @@
     font-weight: 500;
     line-height: normal;
   }
+  /* Team Work*/
+  .team-Work__main {
+    flex-direction: column-reverse;
+  }
+  .team-Work__main--intro {
+    margin-bottom: 20.35px;
+    color: #79d861;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+  }
+  .team-Work__main-title {
+    width: 335px;
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33.049px; /* 110.164% */
+  }
+  .team-Work__main-desc {
+    width: 335px;
+    margin-bottom: 40px;
+    color: #b0b0b0;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.027px; /* 150.224% */
+  }
+  .team-Work__main--left {
+    width: 268.29px;
+    height: 214.632px;
+    margin-left: 66.71px;
+    border-radius: 5.801px;
+    padding: 8.7px 21.03px 9.58px 18.13px;
+  }
+  .team-Work__main--block-left-top {
+    width: 268.29px;
+    height: 26.104px;
+    border-radius: 5.801px 5.801px 0px 0px;
+    padding: 8.7px 0px 8.7px 12.33px;
+    background: #fff;
+  }
+  .team-Work__main--block-left-bottom {
+    margin-top: calc(12.33px + 26.104px);
+  }
+  .team-Work__main--left-name {
+    color: #1c1c24;
+    font-size: 11.602px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .team-Work__main--right {
+    width: auto;
+    margin: auto;
+  }
+  .team-Work__main-left-extra {
+    bottom:-66px;
+    left: -66px;
+    width: 158.074px;
+    height: 120.368px;
+    padding: 14.5px 15.95px 15.95px 14.5px;
+    &-one {
+      width: 91.364px;
+      height: 10.152px;
+      border-radius: 5.076px;
+    }
+    &-two {
+      width: 31.905px;
+      height: 10.152px;
+      border-radius: 5.076px;
+    }
+  }
+  .team-Work__main-left-extra-item {
+    padding-bottom: 13.5px;
+    margin-bottom: 0;
+  }
+  .team-Work__main-left-extra-title {
+    margin-bottom: 8.75px;
+    color: #1c1c24;
+    font-size: 10.152px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .team-Work__main--left-light {
+    width: 120.368px;
+    height: 10.152px;
+    border-radius: 5.076px;
+  }
+  .team-Work__main--ratio {
+    margin-top: 29px;
+    column-gap: 14.5px;
+  }
+  .team-Work__main-ratio-item {
+    width: 20.3px;
+    &.h117 {
+      height: 84.84px;
+    }
+    &.h63 {
+      height: 45.68px;
+    }
+    &.h66 {
+      height: 47.86px;
+    }
+    &.h82 {
+      height: 59.46px;
+    }
+    &.h155 {
+      height: 112.39px;
+    }
+    &.h106 {
+      height: 76.86px;
+    }
+    &.h84 {
+      height: 60.91px;
+    }
+  }
 }
