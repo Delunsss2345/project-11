@@ -626,4 +626,42 @@
     font-weight: 500;
     line-height: 38px; /* 126.667% */
   }
+  /*Process*/
+  .process__main--list {
+    grid-template-columns: 335px;
+    grid-template-rows: 269px;
+    gap: 30px;
+  }
+  .process__main--item {
+    padding: 14px;
+  }
+  .process__main--block-img {
+    width: 84.8px;
+    height: 84.8px;
+    border-radius: 7.067px;
+  }
+  .process__main--title {
+    width: 335px;
+    color: #fff;
+    text-align: center;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px; /* 126.667% */
+  }
+  .process__main--desc-item {
+    width: 306px;
+    color: #b0b0b0;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 157.143% */
+  }
+  .process__main--intro-item {
+    color: #fff;
+    font-size: 1.9rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
 }
