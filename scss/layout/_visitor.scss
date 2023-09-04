@@ -27,12 +27,12 @@
 }
 .visitor__main {
   display: flex;
+  justify-content: center;
   column-gap: 138px;
 }
 .visitor__main--left {
   width: 426px;
   height: 377px;
-  margin-left: 125px;
   padding: 58px 40px;
   border-radius: 8px;
   background: #292932;
